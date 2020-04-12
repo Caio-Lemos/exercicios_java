@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class contas {
+	public static void main(String[]args) {
+		Scanner input = new Scanner(System.in);
+int x;
+int y;
+
+
+System.out.println("1° número ");
+x = input.nextInt();
+
+System.out.println("2° número ");
+y = input.nextInt();
+
+
+System.out.printf("Soma = %d%n", x+y);
+System.out.println();
+
+System.out.printf("Subtração = %d \n", x-y);
+System.out.println();
+
+System.out.printf("Multiplicação = %d \n", x*y);
+System.out.println();
+
+System.out.printf("Divisão comum = %d \n", x/y);
+System.out.println();
+
+System.out.printf("Modulo/Resto = %d \n", x%y);
+
+}
+}
